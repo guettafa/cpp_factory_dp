@@ -72,6 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>$(ProjectDir)\include\;$(IncludePath)</IncludePath>
+    <SourcePath>C:\Users\arsla\OneDrive\Documents\Learning\references\TestRevamp\TestRevamp\src;$(SourcePath)</SourcePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -111,6 +112,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ShowProgress>LinkVerbose</ShowProgress>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -132,6 +134,7 @@
   <ItemGroup>
     <ClCompile Include="include\circle.h" />
     <ClCompile Include="include\shape.h" />
+    <ClCompile Include="src\coco.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="include\square.h" />
   </ItemGroup>

@@ -1,4 +1,3 @@
-#include <iostream>
 #include "factories.h"
 
 int main() {

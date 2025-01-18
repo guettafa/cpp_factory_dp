@@ -33,6 +33,9 @@
     <ClCompile Include="include\square.h">
       <Filter>Header Files\Shapes</Filter>
     </ClCompile>
+    <ClCompile Include="src\coco.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\factory.h">
