@@ -1,5 +1,5 @@
-#ifndef SHAPES_FACTORY_H
-#define SHAPES_FACTORY_H
+#ifndef FACTORIES_H
+#define FACTORIES_H
 
 #include "factory.h"
 #include "circle.h"
@@ -22,4 +22,4 @@ namespace Factories {
 	};
 }
 
-#endif // !SHAPES_FACTORY_H
+#endif // !FACTORIES_H

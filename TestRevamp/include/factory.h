@@ -1,5 +1,5 @@
-#ifndef SHAPE_FACTORY_H
-#define SHAPE_FACTORY_H
+#ifndef FACTORY_H
+#define FACTORY_H
 
 #include "shape.h"
 
@@ -11,4 +11,4 @@ public:
 	virtual ~ShapeFactory() = default;
 };
 
-#endif // !SHAPE_FACTORY_H
+#endif // !FACTORY_H

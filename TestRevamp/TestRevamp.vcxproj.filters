@@ -21,24 +21,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="shape.h">
+    <ClCompile Include="include\shape.h">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="circle.h">
+    <ClCompile Include="include\circle.h">
       <Filter>Header Files\Shapes</Filter>
     </ClCompile>
-    <ClCompile Include="square.h">
+    <ClCompile Include="include\square.h">
       <Filter>Header Files\Shapes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="factory.h">
+    <ClInclude Include="include\factory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="factories.h">
+    <ClInclude Include="include\factories.h">
       <Filter>Header Files\Factories</Filter>
     </ClInclude>
   </ItemGroup>

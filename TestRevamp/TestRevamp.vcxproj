@@ -70,6 +70,9 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(ProjectDir)\include\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -127,14 +130,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="circle.h" />
-    <ClCompile Include="shape.h" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="square.h" />
+    <ClCompile Include="include\circle.h" />
+    <ClCompile Include="include\shape.h" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="include\square.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="factories.h" />
-    <ClInclude Include="factory.h" />
+    <ClInclude Include="include\factories.h" />
+    <ClInclude Include="include\factory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
