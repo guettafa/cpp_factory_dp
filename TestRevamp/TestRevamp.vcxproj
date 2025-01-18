@@ -134,7 +134,6 @@
   <ItemGroup>
     <ClCompile Include="include\circle.h" />
     <ClCompile Include="include\shape.h" />
-    <ClCompile Include="src\coco.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="include\square.h" />
   </ItemGroup>
